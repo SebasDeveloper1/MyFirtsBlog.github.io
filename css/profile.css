@@ -62,6 +62,7 @@
 .article-container {
   display: inline-block;
   max-width: 30%;
+  min-width: 300px;
   margin-bottom: 50px;
 }
 
