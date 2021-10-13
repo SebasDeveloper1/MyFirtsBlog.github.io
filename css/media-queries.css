@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  .news-container__image {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+
+  .container__image-new {
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .news-container__texts {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-news-container {
+    padding: 20px 20px 50px;
+  }
+
+  .main-articles-container {
+    padding: 20px 0 50px;
+  }
+
+  .articles-container-section {
+    justify-content: center;
+  }
+}
