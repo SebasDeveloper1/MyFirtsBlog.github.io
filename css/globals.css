@@ -1,0 +1,16 @@
+:root {
+    --color-primary: #47cfac;
+    --color-secondary: #e6e9ed;
+    --font-one: "Roboto", sans-serif;
+    --font-two: "Roboto Mono", monospace;
+    --font-three: "Roboto Slab", serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+  .grid-container{
+    max-width: 980px;
+    margin: auto;
+  }

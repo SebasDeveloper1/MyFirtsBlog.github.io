@@ -1,0 +1,82 @@
+@import url(./globals.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+.blog-image-container {
+  padding: 0 50px 40px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-main-container {
+  padding: 0 50px 40px;
+}
+
+.blog-main__category {
+  border-bottom: 1px solid #cdd2da;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.blog-main-article__title {
+  font-size: 3.5rem;
+  color: black;
+}
+
+.blog-main-article__paragraph {
+  font-size: 1.6rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 300px;
+  background-color: #cdd2da;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.contact-container-left {
+  display: flex;
+  width: 40%;
+  min-width: 300px;
+}
+
+.contact-container-right {
+  display: flex;
+  width: 40%;
+  min-width: 300px;
+}
+
+.contact__img {
+  width: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.contact-text {
+  align-self: flex-end;
+}
+
+.contact-text__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.contact-text__paragraph {
+  font-size: 1.6rem;
+  color: black;
+}
